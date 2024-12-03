@@ -1,0 +1,44 @@
+
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#input-section{
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#input-section{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.btn{
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#description , #amount{
+    padding:5px;
+}
+
+#title{
+    background-color: navy;
+    color:white;
+    padding:5px;
+}
+
+#expense-tracker{
+    padding: 10px;
+    background-color: bisque;
+}
+
+.delete-btn{
+    background-color: red;
+    color:white;
+}
